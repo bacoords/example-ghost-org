@@ -64,7 +64,7 @@
     },
     "layout": {
       "contentSize": "650px",
-      "wideSize": "1200px"
+      "wideSize": "1400px"
     },
     "spacing": {
       "spacingSizes": [
@@ -249,9 +249,9 @@
         {
           "fluid": {
             "min": "4.03rem",
-            "max": "5.96rem"
+            "max": "5.5rem"
           },
-          "size": "5.96rem",
+          "size": "5.5rem",
           "slug": "h1",
           "name": "H1"
         }
