@@ -1,0 +1,1 @@
+{"version":3,"file":"../css/core--quote.css","mappings":";;;AAAA;EACC;EACA;AACD,C","sources":["webpack://example-ghost-org/./src/scss/blocks/core/quote.scss"],"sourcesContent":[".wp-block-quote {\n\tborder-left: 2px solid var(--wp--preset--color--primary);\n\tpadding-left: var(--wp--preset--spacing--50);\n}\n"],"names":[],"sourceRoot":""}

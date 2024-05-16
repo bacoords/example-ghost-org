@@ -1,0 +1,1 @@
+{"version":3,"file":"../css/core--video.css","mappings":";;;AAAA;EACC;EACA;EACA;AACD,C","sources":["webpack://example-ghost-org/./src/scss/blocks/core/video.scss"],"sourcesContent":[".wp-block-video {\n\tborder-top-left-radius: 6px;\n\tborder-top-right-radius: 6px;\n\toverflow: hidden;\n}\n"],"names":[],"sourceRoot":""}

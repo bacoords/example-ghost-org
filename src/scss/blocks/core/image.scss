@@ -1,0 +1,17 @@
+.wp-block-image {
+	&.is-style-position-absolute-left {
+		position: absolute;
+		top: 20%;
+		left: calc(var(--wp--preset--spacing--30) * -1);
+	}
+	&.is-style-position-absolute-right {
+		position: absolute;
+		top: 50%;
+		right: calc(var(--wp--preset--spacing--30) * -1);
+	}
+	&.is-style-position-absolute-bottom {
+		position: absolute;
+		left: 50%;
+		bottom: calc(var(--wp--preset--spacing--30) * -1);
+	}
+}

@@ -1,0 +1,20 @@
+@use "../../utils";
+
+.wp-block-group {
+	// padding added for parity with the block editor
+	padding-bottom: 0;
+	padding-top: 0;
+	&.is-selected,
+	&.has-child-selected {
+		padding-bottom: 1.25em;
+	}
+
+	&.wp-block-group-is-layout-grid {
+		@include utils.breakpoint-down("md") {
+			grid-template-columns: 1fr;
+			> :is(*, div) {
+				grid-column: 1 / -1;
+			}
+		}
+	}
+}

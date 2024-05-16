@@ -1,0 +1,20 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/blocks/core/group.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-group {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.wp-block-group.is-selected, .wp-block-group.has-child-selected {
+  padding-bottom: 1.25em;
+}
+@media (max-width: 768px) {
+  .wp-block-group.wp-block-group-is-layout-grid {
+    grid-template-columns: 1fr;
+  }
+  .wp-block-group.wp-block-group-is-layout-grid > :is(*, div) {
+    grid-column: 1/-1;
+  }
+}
+
+/*# sourceMappingURL=core--group.css.map*/
