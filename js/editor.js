@@ -140,6 +140,10 @@ const registerBlockStyles = {
   'core/group': [{
     name: 'position-relative',
     label: 'Relative Position'
+  }],
+  'core/columns': [{
+    name: 'reverse-on-mobile',
+    label: 'Reverse on Mobile'
   }]
 };
 
@@ -150,17 +154,14 @@ const registerBlockStyles = {
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/
  */
 const registerBlockVariations = {
-  // "core/columns": {
-  // 	name: "three-columns-wide-left",
-  // 	title: "50 / 25 / 25",
-  // 	description: "Three columns; wide left column",
-  // 	innerBlocks: [
-  // 		["core/column", { width: "50%" }],
-  // 		["core/column", { width: "25%" }],
-  // 		["core/column", { width: "25%" }],
-  // 	],
-  // 	scope: ["block"],
-  // },
+  'core/group': {
+    name: 'group-section',
+    title: 'Section',
+    description: 'Section Block',
+    attributes: {
+      tagName: 'section'
+    }
+  }
 };
 
 /**
